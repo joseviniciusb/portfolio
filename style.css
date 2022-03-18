@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Zen Kurenaido', sans-serif;
+  background-image: url(https://wallpaperaccess.com/full/1216317.png);
+  background-size: cover;
+  background-position: auto;
+  color: white;
+  font-weight: 400;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+#about-container {
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 10%;
+}
+
+#raining-pixel-gif {
+  background-image: url(./assets/raining-pixel.gif);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.links {
+  color: white;
+}
+
+.links:hover {
+  color: #39FF14;
+  transition: 500ms;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin-top: 25px;
+  width: 350px;
+}
+.menu {
+  list-style: none;
+  background-color: #333;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 25px;
+  height: 150px;
+  display: inline-block;
+}
+
+.menu li  ul{
+  position:absolute;
+  top:25px;
+  background-color:rgba(255, 255, 255, 0);
+  display:none;
+  width: 300px;
+  }
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 50px;
+  display: block;
+  background: #333;
+  width: 200px;
+  border: 1px solid black;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+.menu li a:hover {
+  background: #333;
+  color: #39FF14;
+  -moz-box-shadow: 0 3px 5px 0 #39FF14;;
+  -webkit-box-shadow: 0 1px 2px 0 #39FF14;;
+  text-shadow: 0px 0px 5px #fff;
+  transition: 200ms;
+  width: 200px;
+ 
+}
+
+.menu li:hover ul, .menu li.over ul{display:inline-block; background: rgba(rgba(255, 0, 0, 0), green, blue, alpha);}
+
+.menu li ul li{
+  display:block;
+  width: 50px;
+ 
+  }
+
+
+#github-logo {
+  height: 30px;
+}
